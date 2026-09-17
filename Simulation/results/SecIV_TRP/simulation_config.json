@@ -1,0 +1,47 @@
+{
+  "sample_rate_hz": 122880000.0,
+  "carrier_hz": 1000000000.0,
+  "snr_db": 40.0,
+  "psd_floor_db": -40.0,
+  "los_pathloss_db": 0.0,
+  "reflection_levels_db": [
+    -5.0,
+    -10.0,
+    -20.0,
+    -30.0
+  ],
+  "reflection_delays_ns": [
+    6.0,
+    10.0,
+    20.0
+  ],
+  "phase_jitter_std_deg": 12.0,
+  "measurement_position_offsets_m": [
+    -0.12891075693999998,
+    -0.06295641617999999,
+    0.0,
+    0.047966793279999996,
+    0.10192943572
+  ],
+  "measurement_delay_offsets_ns": [
+    -0.8599999999999999,
+    -0.41999999999999993,
+    0.0,
+    0.32,
+    0.68
+  ],
+  "nominal_phase_offsets_rad": [
+    0.8796459430051424,
+    -2.638937829015426,
+    0.0,
+    2.0106192982974678,
+    -2.010619298297467
+  ],
+  "target_bandwidth_mhz": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "phase_model": "Unknown per-point phases are jointly fitted during inversion."
+}
